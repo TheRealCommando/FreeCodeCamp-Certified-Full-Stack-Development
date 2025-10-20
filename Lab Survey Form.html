@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Survey Form</title>
+	</head>
+
+	<body>
+		<h1 id="title">Lab Survey</h1>
+		<p id="description">Tell me about the lab.</p>
+		<form action="" id="survey-form">
+			<fieldset id="personal-info">
+				<legend>Personal Info</legend>
+				<label id="name-label" for="name">Name</label>
+				<input type="text" name="" id="name" placeholder="Ex. John Doe" required />
+				<label id="email-label" for="email">Email</label>
+				<input type="email" name="email" id="email" placeholder="example@mail.com" required />
+				<label id="number-label" for="number">Number</label>
+				<input type="number" name="" id="number" min="4" max="10" placeholder="6" />
+			</fieldset>
+			<fieldset id="lab-info">
+				<label for="dropdown">Experience</label>
+				<select name="" id="dropdown">
+					<option value="bad">Bad</option>
+					<option value="good" selected>Good</option>
+				</select>
+				<input type="radio" name="lab-type" id="indoor-lab" value="indoor" />
+				<label for="indoor-lab">Indoor</label>
+				<input type="radio" name="lab-type" id="outdoor-lab" value="outdoor" />
+				<label for="outdoor-lab">Outdoor</label>
+			</fieldset>
+			<fieldset id="outcome">
+				<legend>Outcome</legend>
+				<input type="checkbox" name="" id="good-outcome" value="good" />
+				<label for="good-outcome">Good</label>
+				<input type="checkbox" name="" id="neutral-outcome" value="neutral" />
+				<label for="neutral-outcome">Neutral</label>
+				<input type="checkbox" name="" id="bad-outcome" value="bad" />
+				<label for="bad-outcome">Bad</label>
+				<div></div>
+				<label for="comments">Comments</label>
+				<div></div>
+				<textarea name="" id="comments"></textarea>
+			</fieldset>
+			<button type="submit" id="submit">Submit</button>
+		</form>
+	</body>
+</html>

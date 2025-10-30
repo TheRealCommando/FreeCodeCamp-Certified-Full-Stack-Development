@@ -1,7 +1,22 @@
-p {
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  border: 2px solid black;
+a:link {
+	color: blue;
+	text-decoration: none;
+	border-bottom: 1px solid blue;
+}
+
+a:visited {
+	color: purple;
+	border-bottom: 1px solid purple;
+}
+
+a:hover {
+	color: red;
+}
+
+a:active {
+	color: darkorange;
+}
+
+a:focus {
+	outline: 2px solid orange;
 }

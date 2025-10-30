@@ -1,0 +1,18 @@
+a {
+	text-decoration: none;
+}
+a:link {
+	color: rgb(153, 88, 51);
+}
+a:visited {
+	color: aqua;
+}
+a:hover {
+	color: black;
+}
+a:focus {
+	outline: 2px solid red;
+}
+a:active {
+	color: blue;
+}

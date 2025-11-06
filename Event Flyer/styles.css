@@ -1,0 +1,20 @@
+body {
+	padding: 50px 0px;
+	margin: 0px auto;
+	width: 50vw;
+	min-height: calc(100vh - 100px);
+	text-align: center;
+}
+
+hr {
+	width: 90%;
+}
+section {
+	width: 49%;
+	display: inline-block;
+	text-align: center;
+}
+
+section > p {
+	color: red;
+}
